@@ -29,7 +29,7 @@ def weather():
     else:
         city = 'Sudbury' # Default city
 
-    api_key = 'd601670ce5387ce898d15db5258d3646'
+    api_key = ''
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
 
     response = requests.get(url)
